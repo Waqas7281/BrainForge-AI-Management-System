@@ -1,0 +1,99 @@
+# Node / Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+bun.lockb
+bunfig.toml
+
+# Vite build output
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment variables (never commit secrets!)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor / IDE files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json   # ← only keep if you want to share VS Code settings
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows junk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Testing / coverage
+coverage/
+.nyc_output/
+*.lcov
+*.clover
+
+# TypeScript / declarations
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ESLint / Prettier cache
+.eslintcache
+.prettiercache
+.stylelintcache
+
+# Tailwind / PostCSS (if using JIT mode or temp files)
+.tailwindcss-cache/
+.postcssrc.*
+
+# Vercel / deployment ignores (optional but recommended)
+.vercel
+.now/
+.output/
+build/
+.next/               # ← only if you ever mix with Next.js
+.vercelignore        # ← ironic, but sometimes people ignore it accidentally
+
+# Temporary / misc
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*.sublime-*
+*.sublime-workspace
